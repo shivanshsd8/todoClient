@@ -1,0 +1,31 @@
+.homeOuterBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.addBtn{
+    width: 120px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer
+}
+.noTodoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.noTodoBox>h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.noTodoBox>h3{
+    font-weight: 400;
+}
